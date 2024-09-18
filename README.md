@@ -45,10 +45,10 @@ yum install git -y
 git clone https://github.com/shittus/Static-website-hosting.git
 
 # Copy repository contents to web root
-cp -R host-a-static-website-on-aws/. /var/www/html/
+cp -R shittus/Static-website-hosting/. /var/www/html/
 
 # Remove the cloned repository directory
-rm -rf host-a-static-website-on-aws
+rm -rf shittus/Static-website-hosting
 
 # Enable Apache HTTP Server on boot
 systemctl enable httpd
