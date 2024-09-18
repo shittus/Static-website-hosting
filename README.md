@@ -42,7 +42,7 @@ cd /var/www/html
 yum install git -y
 
 # Clone the project repository
-git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
+git clone https://github.com/shittus/Static-website-hosting.git
 
 # Copy repository contents to web root
 cp -R host-a-static-website-on-aws/. /var/www/html/
@@ -58,7 +58,7 @@ systemctl start httpd
 ```
 
 ## Repository Link
-The project is available on GitHub: [Host a Static Website on AWS](https://github.com/aosnotes77/host-a-static-website-on-aws)
+The project is available on GitHub: [Host a Static Website on AWS](https://github.com/shittus/Static-website-hosting.git)
 
 ## Conclusion
 This setup ensures a scalable, secure, and fault-tolerant environment for hosting a static web application, leveraging AWS's robust infrastructure.
